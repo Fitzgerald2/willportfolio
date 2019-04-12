@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo:900');
+
+header {
+  font-family: 'Heebo', sans-serif;
+  padding-right: 25px;
+  padding: 20px;
+  background-color: white;
+}
+
+body {
+  /* Remove user agent (browser) stylesheet styling */
+  font-family: 'Heebo', sans-serif;
+  padding: 10;
+  margin: 10;
+  background-color: white;
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #141618;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0 40px 0 40px;
+}
+
+nav a:hover {
+  color: white;
+}
+
+h2 {
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  color: black;
+  ;
+}
+
+section {
+  /* Floating elements sit next to each other on one line as far as there is room. Float: left; makes elements sit next to each other starting on the left. We can also use float: right;  */
+  float: left;
+  /* We set a width of 50% to split the screen into two columns */
+  width: 50%;
+  height: 500px;
+}
+
+/* This styles up elements in html with a class of .big-image */
+.big-image {
+  /* This stretches the background images to cover the sections */
+  background-size: cover;
+  background-position: center;
+}
+
+/* These add different background images to the sections with id attributes */
+/* Munch page images */
+#munch-one {
+  background-image: url('../images/munch.png');
+}
+
+#munch-two {
+  background-image: url('../images/munch2.png');
+}
+
+#munch-three {
+  background-image: url('../images/munch3.png');
+}
+
+/* granula images */
+#granular-one {
+  background-image: url('../images/granula.png');
+}
+
+#granular-two {
+  background-image: url('../images/granula/granula2.png');
+}
+
+#granular-three {
+  background-image: url('../images/granula/granula3.png');
+}
+
+/* last studio images */
+#laststudio-one {
+  background-image: url('../images/last-studio/laststudio1.png');
+}
+
+#laststudio-two {
+  background-image: url('../images/last-Studio/laststudio2.png');
+}
+
+#laststudio-three {
+  background-image: url('../images/last-studio/laststudio3.png');
+}
+
+/* java slider images */
+#java-one {
+  background-image: url('../images/javaslider/java1.png');
+}
+
+#java-two {
+  background-image: url('../images/javaslider/java2.png');
+  padding-top: 150px;
+}
+
+#java-three {
+  background-image: url('../images/javaslider/java3.png');
+}
+
+div {
+  /* This moves the topic content vertically down inside the sections with text. To adjust position, increase or decrease the percentage*/
+  transform: translateY(70%);
+  padding-right: (400%);
+  margin-left: 15px;
+}
+
+form {
+  /* This fixes the floated layout and allows us to add height to the form */
+  clear: left;
+  text-align: center;
+}
